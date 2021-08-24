@@ -2,4 +2,4 @@
 iPhoneアプリの開発は初めてなので、まずはToDOリストを作ってみる
 
 参考サイト
-http://mosho-developer.blogspot.com/2015/11/xcode-swifttodo.html
+https://qiita.com/pe-ta/items/8f474358d1dd789557f3
