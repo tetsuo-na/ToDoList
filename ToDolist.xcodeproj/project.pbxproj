@@ -14,6 +14,7 @@
 		F149ED1C26D4F2AF00C5D568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F149ED1B26D4F2AF00C5D568 /* Assets.xcassets */; };
 		F149ED1F26D4F2AF00C5D568 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F149ED1E26D4F2AF00C5D568 /* Preview Assets.xcassets */; };
 		F149ED2226D4F2AF00C5D568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F149ED2026D4F2AF00C5D568 /* LaunchScreen.storyboard */; };
+		F149ED2A26D4F6ED00C5D568 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F149ED2926D4F6ED00C5D568 /* ToDoListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F149ED1E26D4F2AF00C5D568 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F149ED2126D4F2AF00C5D568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F149ED2326D4F2AF00C5D568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F149ED2926D4F6ED00C5D568 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F149ED2326D4F2AF00C5D568 /* Info.plist */,
 				F149ED1826D4F2AE00C5D568 /* ToDolist.xcdatamodeld */,
 				F149ED1D26D4F2AF00C5D568 /* Preview Content */,
+				F149ED2926D4F6ED00C5D568 /* ToDoListItem.swift */,
 			);
 			path = ToDolist;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				F149ED1326D4F2AE00C5D568 /* AppDelegate.swift in Sources */,
 				F149ED1526D4F2AE00C5D568 /* SceneDelegate.swift in Sources */,
 				F149ED1726D4F2AE00C5D568 /* ContentView.swift in Sources */,
+				F149ED2A26D4F6ED00C5D568 /* ToDoListItem.swift in Sources */,
 				F149ED1A26D4F2AE00C5D568 /* ToDolist.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDolist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ToDolist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tetsuworker.ToDolist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDolist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ToDolist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tetsuworker.ToDolist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
